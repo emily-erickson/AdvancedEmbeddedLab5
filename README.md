@@ -1,10 +1,14 @@
-# Renode setup
-The Raspberry Pico needs configuration files for Renode to work properly.
+# Advanced Embedded Systems Lab 5 Written Part
 
-* On MacOS, the installation location is `/Applications/Renode.app/Contents/MacOs`
-* On Linux, the location for Debian, Fedora, and Arch is `/opt/renode`
-* On Windows, the location is `C://Program Files/Renode`
+Activity 1
+               Period Drift	                         Frequency Drift	                    Duty Cycle Drift
+Sleep	         +2.484 ms (T increased)	             -3.0522 (f decreased)	              +0.6
+Task Delay	   +1.104	                               -1.4352	                             0
+Timer	         +2.208	                               -1.5174	                             0
 
-To add the Pico configuration files:
-1. Copy `rp2040_spinlock.py` and `rp2040_divider.py` to the `scripts/pydev` directory of your Renode installation.
-1. Copy `rpi_pico_rp2040_w.repl` to the `platforms/cpus` directory.
+
+Activity 2
+-1.92 us delay between our board and the function generator
+
+Activity 3
+-6.93 ms delay between our board and the function generator
